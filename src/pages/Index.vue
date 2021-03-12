@@ -104,8 +104,8 @@ export default {
         //Others
         navigator.geolocation.getCurrentPosition((position) => {
           console.log("position: ", position);
-          this.lat = position.coord.latitude;
-          this.lon = position.coord.longitude;
+          this.lat = position.coords.latitude;
+          this.lon = position.coords.longitude;
           this.getWeatherByCoords();
         });
       }
