@@ -44,7 +44,7 @@
 
     <template v-else>
       <div class="text-center mt-52">
-        <div class="text-5xl">Quasar Weather</div>
+        <div class="text-5xl">Today's Weather</div>
 
         <div class="location-btn mt-8">
           <q-btn @click="getLocation" class="col btn" flat>
