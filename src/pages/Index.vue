@@ -34,7 +34,7 @@
         </div>
         <div class="img-icon">
           <img
-            :src="`http://openweathermap.org/img/wn/${weatherData.weather[0].icon}@2x.png`"
+            :src="`https://openweathermap.org/img/wn/${weatherData.weather[0].icon}@2x.png`"
             alt="weather-icon"
             class="mx-auto"
           />
@@ -73,7 +73,7 @@ export default {
       weatherData: null,
       lat: null,
       lon: null,
-      apiUrl: "http://api.openweathermap.org/data/2.5/weather",
+      apiUrl: "https://api.openweathermap.org/data/2.5/weather",
       apiKey: "5edcdf4946c86c9b6f9bc51109f006b7",
     };
   },
