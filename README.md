@@ -26,8 +26,11 @@ quasar dev -m ios
 ### Start the app in development mode (hot-code reloading, error reporting, etc.)
 quasar dev
 
-### Build the app for production
+### Build the app for production (Build Command)
 quasar build
+
+### Public Directory
+dist
 
 ### Customize the configuration
 
