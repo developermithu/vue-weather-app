@@ -17,8 +17,5 @@ const routes = [
 
 ]
 
-// export default routes
-export default ({
-  mode: 'history',
-routes
-})
+export default routes
+
