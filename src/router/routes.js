@@ -5,9 +5,7 @@ const routes = [
     component: () => import('layouts/MainLayout.vue'),
     children: [
       { path: '', component: () => import('pages/Index.vue') }
-    ],
-    mode: 'history',
-
+    ]
   },
 
   // Always leave this as last one,
@@ -15,7 +13,12 @@ const routes = [
   {
     path: '*',
     component: () => import('pages/Error404.vue')
-  }
+  },
+
 ]
 
-export default routes
+// export default routes
+export default ({
+  mode: 'history',
+routes
+})
